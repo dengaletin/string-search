@@ -1,0 +1,26 @@
+{
+    "name": "dengaletin/string-search",
+    "description": "Find substring in file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denis Galetin",
+            "email": "den@galetin.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/yaml": "^4.1",
+        "ext-mbstring": "*",
+        "ext-fileinfo": "*",
+        "hoa/mime": "~3.0",
+        "hoa/file": "1.17.07.11"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
